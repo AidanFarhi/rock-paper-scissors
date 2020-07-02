@@ -1,0 +1,36 @@
+body {
+    background-image: url(image-002.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+h2 {
+    margin-left:50px;
+}
+#big-div {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#total-win-count, #result-div {
+    text-align: center;
+    border: solid 1px grey;
+    border-radius: 5px;
+}
+#total-win-count {
+    width: 400px;
+    height: 100px;
+}
+#result-div {
+    width: 400px;
+    height: 100px;
+    background-color: white;
+}
+#choices-div{
+    padding-top: 10px;
+    padding-left: 100px;
+}
+button {
+    font-size: 16px;
+}
+
