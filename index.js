@@ -33,12 +33,21 @@ document.addEventListener('DOMContentLoaded', () => {
                 document.querySelector('#computer-win-count').innerHTML = computerWinCount;
                 document.querySelector('#message').innerHTML = `Computer picked ${computerSelection}.`;
                 document.querySelector('#result').innerHTML = 'You Lose!';
+            } else if (playerSelection === 'scissors' && computerSelection === 'paper') {
+                playerWinCount += 1;
+                document.querySelector('#computer-win-count').innerHTML = computerWinCount;
+                document.querySelector('#message').innerHTML = `Computer picked ${computerSelection}.`;
+                document.querySelector('#result').innerHTML = 'You Win!!';
+            
+            } else if (playerSelection === 'scissors' && computerSelection === 'rock') {
+                computerWinCount += 1;
+                document.querySelector('#computer-win-count').innerHTML = computerWinCount;
+                document.querySelector('#message').innerHTML = `Computer picked ${computerSelection}.`;
+                document.querySelector('#result').innerHTML = 'You Lose!';
             } else {
                 document.querySelector('#message').innerHTML = `Computer picked ${computerSelection}.`;
                 document.querySelector('#result').innerHTML = 'It is a draw.';
             }
-
         }
-
     });
 });

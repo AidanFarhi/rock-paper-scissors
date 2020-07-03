@@ -6,11 +6,11 @@ body {
     font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 }
 h2 {
-    margin-left:50px;
+    margin-left: 100px;
 }
 #big-div {
-    margin-left: 50px;
-    margin-top: 50px;
+    margin-left: 100px;
+    margin-top: 100px;
 }
 #total-win-count, #result-div {
     text-align: center;
@@ -18,17 +18,18 @@ h2 {
     border-radius: 5px;
 }
 #total-win-count {
-    width: 400px;
-    height: 100px;
+    width: 600px;
+    height: 200px;
+    background-color: white;
 }
 #result-div {
-    width: 400px;
-    height: 100px;
+    width: 600px;
+    height: 200px;
     background-color: white;
 }
 #choices-div{
     padding-top: 10px;
-    padding-left: 100px;
+    padding-left: 200px;
 }
 button {
     font-size: 16px;
